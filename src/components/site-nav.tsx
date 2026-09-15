@@ -1,14 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { MobileNav } from "@/components/mobile-nav";
 import { Button } from "@/components/ui/button";
-
-const NAV_LINKS = [
-  { label: "Product", href: "#product" },
-  { label: "What’s new", href: "#whats-new" },
-  { label: "Reviews", href: "#reviews" },
-  { label: "Download", href: "#download" },
-];
+import { NAV_LINKS } from "@/lib/nav-links";
 
 export function SiteNav() {
   return (
@@ -42,12 +37,15 @@ export function SiteNav() {
             ))}
           </nav>
 
-          <Button
-            render={<a href="#contact" />}
-            className="h-[52px] rounded-[26px] bg-vyrix px-[41px] text-[16px] leading-none font-bold text-cream hover:bg-vyrix-deep"
-          >
-            Contact Us
-          </Button>
+          <div className="flex items-center gap-3">
+            <Button
+              render={<a href="#contact" />}
+              className="h-[52px] rounded-[26px] bg-vyrix px-[24px] text-[16px] leading-none font-bold text-cream hover:bg-vyrix-deep sm:px-[41px]"
+            >
+              Contact Us
+            </Button>
+            <MobileNav />
+          </div>
         </div>
       </div>
     </header>

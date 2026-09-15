@@ -47,10 +47,10 @@ export function Hero() {
 
       <div className="relative mt-[64px] px-6 lg:static lg:mt-0">
         <Image
-          src="/assets/app-hero@2x.png"
+          src="/assets/hero.png"
           alt="Vyrix home screen showing missions and recent chats"
-          width={1678}
-          height={968}
+          width={839}
+          height={484}
           preload
           className="mx-auto h-auto w-full max-w-[839px] lg:absolute lg:top-[776px] lg:left-1/2 lg:mx-0 lg:w-[839px] lg:max-w-none lg:-translate-x-[calc(50%+33px)]"
         />

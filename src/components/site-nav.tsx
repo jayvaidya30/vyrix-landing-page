@@ -44,7 +44,7 @@ export function SiteNav() {
 
           <Button
             render={<a href="#contact" />}
-            className="h-[31.18px] rounded-[26px] bg-vyrix px-[41px] text-[16px] leading-none font-bold text-cream hover:bg-vyrix-deep"
+            className="h-[52px] rounded-[26px] bg-vyrix px-[41px] text-[16px] leading-none font-bold text-cream hover:bg-vyrix-deep"
           >
             Contact Us
           </Button>

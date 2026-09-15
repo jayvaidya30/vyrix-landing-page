@@ -17,7 +17,7 @@ export function HeroRings({ className }: { className?: string }) {
       aria-hidden
       className={className}
     >
-      <g opacity={0.14}>
+      <g opacity={0.2}>
         {RINGS.map((ring, index) => (
           <g key={ring.r} opacity={ring.opacity}>
             <circle

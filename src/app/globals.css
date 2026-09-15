@@ -60,7 +60,7 @@
 @keyframes ring-pulse {
   0%,
   100% {
-    opacity: 0.4;
+    opacity: 0.5;
     transform: scale(0.99);
   }
   50% {

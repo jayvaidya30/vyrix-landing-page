@@ -54,6 +54,19 @@
   --color-mist: #eee;
   --color-cream: #ebebeb;
   --color-hairline: #c3c3c3;
+  --animate-ring-pulse: ring-pulse 3.2s ease-in-out infinite;
+}
+
+@keyframes ring-pulse {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(0.99);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @utility font-display {

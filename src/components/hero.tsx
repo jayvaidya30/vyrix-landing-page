@@ -1,19 +1,12 @@
 import Image from "next/image";
 
+import { HeroRings } from "@/components/hero-rings";
 import { Button } from "@/components/ui/button";
 
 export function Hero() {
   return (
     <section id="product" className="relative overflow-hidden bg-paper lg:h-[2357px]">
-      <Image
-        src="/assets/hero-circles.svg"
-        alt=""
-        aria-hidden
-        width={1134}
-        height={1134}
-        preload
-        className="pointer-events-none absolute top-[-60px] left-1/2 w-[720px] max-w-none -translate-x-1/2 select-none sm:w-[900px] lg:top-[-134px] lg:w-[1134px] lg:-translate-x-[calc(50%+50px)]"
-      />
+      <HeroRings className="pointer-events-none absolute top-[-60px] left-1/2 h-auto w-[720px] max-w-none -translate-x-1/2 select-none sm:w-[900px] lg:top-[-134px] lg:w-[1134px] lg:-translate-x-[calc(50%+50px)]" />
 
       <div className="relative px-6 pt-[96px] text-center lg:pt-[242px] lg:-translate-x-[30px]">
         <h1 className="font-display mx-auto text-[40px] leading-[1.09] text-ink sm:text-[52px] lg:text-[64px] lg:leading-[70px]">

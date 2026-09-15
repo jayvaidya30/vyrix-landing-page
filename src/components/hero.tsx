@@ -44,6 +44,7 @@ export function Hero() {
           alt="Vyrix home screen showing missions and recent chats"
           width={839}
           height={484}
+          sizes="(max-width: 839px) 100vw, 839px"
           preload
           className="mx-auto h-auto w-full max-w-[839px] lg:absolute lg:top-[776px] lg:left-1/2 lg:mx-0 lg:w-[839px] lg:max-w-none lg:-translate-x-[calc(50%+33px)]"
         />
@@ -52,6 +53,7 @@ export function Hero() {
           alt="Vyrix workspace with mission tracking and flow repository"
           width={2970}
           height={1694}
+          sizes="(max-width: 1024px) calc(100vw - 48px), (max-width: 1605px) calc(100vw - 120px), 1485px"
           className="mx-auto mt-[80px] h-auto w-full max-w-[1485px] lg:absolute lg:top-[1514px] lg:left-1/2 lg:mt-0 lg:w-[1485px] lg:max-w-[calc(100vw-120px)] lg:-translate-x-1/2"
         />
       </div>

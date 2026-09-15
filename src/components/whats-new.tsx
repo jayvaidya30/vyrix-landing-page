@@ -34,7 +34,7 @@ export function WhatsNew() {
   return (
     <section
       id="whats-new"
-      className="bg-mist pt-[72px] pb-[72px] lg:mt-[92px] lg:h-[1605px] lg:pt-0 lg:pb-0"
+      className="bg-mist pt-[72px] pb-[72px] lg:mt-[92px] lg:min-h-[1605px] lg:pt-0 lg:pb-0"
     >
       <div className="mx-auto w-full max-w-[1505px] px-6">
         <h2 className="font-display text-center text-[36px] leading-none text-black sm:text-[48px] lg:pt-[117px]">

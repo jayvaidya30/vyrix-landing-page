@@ -30,7 +30,7 @@ export function SiteNav() {
             />
           </Link>
 
-          <nav className="absolute top-1/2 left-1/2 hidden -translate-x-1/2 -translate-y-1/2 items-center gap-[74px] md:flex">
+          <nav className="absolute top-1/2 left-1/2 hidden -translate-x-1/2 -translate-y-1/2 items-center gap-[56px] lg:flex xl:gap-[74px]">
             {NAV_LINKS.map((link) => (
               <Link
                 key={link.label}
